@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kotkov Tech - Digital Agency | Коммерческое предложение</title>
+    <meta name="description" content="Профессиональные digital-решения от агентства Kotkov Tech. SMM, AI-контент, веб-разработка для вашего бренда.">
+    <meta name="keywords" content="digital агентство, SMM, веб-разработка, AI контент, таргетированная реклама">
+    
+    <!-- Preconnect для оптимизации загрузки шрифтов -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Google Fonts - Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+</head>
+<body>
+    <!-- Прелоадер -->
+    <div id="preloader">
+        <div class="loader">
+            <div class="loader-circle"></div>
+            <div class="loader-text">Kotkov Tech</div>
+        </div>
+    </div>
+
+    <!-- Навигация -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Kotkov Tech</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#hero" class="nav-link">Главная</a>
+
+                <a href="#services" class="nav-link">Услуги</a>
+                <a href="#portfolio" class="nav-link">Портфолио</a>
+                <a href="#contact" class="nav-link">Контакты</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Главная секция с параллакс эффектом -->
+    <section id="hero" class="hero">
+        <div class="hero-bg" data-speed="0.5"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Цифровые решения</span>
+                    <span class="title-line">нового уровня</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Я создаю digital-стратегии, которые превращают ваш бренд в лидера рынка
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('contact')">
+                        Обсудить проект
+                    </button>
+                    <button class="btn btn-secondary" onclick="scrollToSection('portfolio')">
+                        Посмотреть работы
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-card card-1">
+                    <div class="card-icon">📱</div>
+                    <div class="card-text">SMM</div>
+                </div>
+                <div class="floating-card card-2">
+                    <div class="card-icon">🤖</div>
+                    <div class="card-text">AI</div>
+                </div>
+                <div class="floating-card card-3">
+                    <div class="card-icon">💻</div>
+                    <div class="card-text">Web</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+
+
+    <!-- Услуги -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Что мы можем предложить для усиления Вашего бренда</h2>
+                <p class="section-subtitle">Комплексные решения для digital-присутствия</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-icon">
+                        <div class="icon-bg">📱</div>
+                    </div>
+                    <h3 class="service-title">Стратегический SMM и таргетированная реклама</h3>
+                    <p class="service-description">
+                        Мы не просто делаем посты, а находим Ваших клиентов и выстраиваем вокруг бренда лояльное сообщество.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature">Контент-стратегия</span>
+                        <span class="feature">Таргетинг</span>
+                        <span class="feature">Аналитика</span>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-icon">
+                        <div class="icon-bg">🤖</div>
+                    </div>
+                    <h3 class="service-title">AI-решения для контента</h3>
+                    <p class="service-description">
+                        Я создаю уникальный видеоконтент с помощью AI-аватаров, AI визуализации экстерьера и интерьера, что сэкономит время и выделит Вас среди конкурентов.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature">AI-аватары</span>
+                        <span class="feature">3D визуализация</span>
+                        <span class="feature">Автоматизация</span>
+                    </div>
+                </div>
+                
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-icon">
+                        <div class="icon-bg">💻</div>
+                    </div>
+                    <h3 class="service-title">Веб-разработка и интеграции</h3>
+                    <p class="service-description">
+                        Обеспечиваю, чтобы Ваш сайт был таким же функциональным и впечатляющим, как и Ваши дизайны.
+                    </p>
+                    <div class="service-features">
+                        <span class="feature">Современный дизайн</span>
+                        <span class="feature">Адаптивность</span>
+                        <span class="feature">Производительность</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Видео-презентация -->
+    <section id="video-presentation" class="video-section">
+        <video autoplay loop muted playsinline class="presentation-video">
+            <source src="images/video.mp4" type="video/mp4">
+            Ваш браузер не поддерживает тег video.
+        </video>
+        <div class="video-overlay"></div>
+        <div class="video-content">
+            <h2>Kotkov Tech</h2>
+            <p>Мы создаем digital-стратегии, которые превращают ваш бренд в лидера рынка.</p>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Наши проекты</h2>
+                <p class="section-subtitle">Примеры работ в области дизайна и архитектуры</p>
+            </div>
+            <div class="portfolio-grid" id="portfolio-grid">
+                <!-- Изображения будут добавлены через JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Новая видео секция после портфолио -->
+    <section id="video-showcase" class="video-showcase-section">
+        <video autoplay loop muted playsinline class="showcase-video">
+            <source src="images/video2.mp4" type="video/mp4">
+            Ваш браузер не поддерживает тег video.
+        </video>
+        <div class="video-showcase-overlay"></div>
+    </section>
+
+    <!-- Модальное окно для просмотра изображений -->
+    <div id="imageModal" class="modal">
+        <div class="modal-content">
+            <span class="modal-close">&times;</span>
+            <img id="modalImage" src="" alt="">
+            <div class="modal-nav">
+                <button class="modal-prev">‹</button>
+                <button class="modal-next">›</button>
+            </div>
+            <div class="modal-counter">
+                <span id="modalCounter">1 / 7</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Контакты -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Готовы обсудить ваш проект?</h2>
+                <p class="section-subtitle">Буду рад обсудить детали на коротком созвоне в удобное для Вас время</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">👨‍💼</div>
+                        <div class="contact-text">
+                            <h4>Vladimir Kotkov</h4>
+                            <p>Основатель Kotkov Tech</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💬</div>
+                        <div class="contact-text">
+                            <h4>WhatsApp</h4>
+                            <p><a href="http://wa.me/353874835929" target="_blank">Написать в WhatsApp</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-text">
+                            <h4>Специализация</h4>
+                            <p>Digital-стратегии для премиум брендов</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-cta">
+                    <h3>Следующие шаги:</h3>
+                    <ol class="steps-list">
+                        <li>Короткий созвон для обсуждения задач</li>
+                        <li>Тестовое задание для демонстрации возможностей</li>
+                        <li>Разработка индивидуальной стратегии</li>
+                        <li>Запуск проекта</li>
+                    </ol>
+                    <button class="btn btn-primary btn-large">
+                        Связаться с нами
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-text">Kotkov Tech</span>
+                </div>
+                <div class="footer-text">
+                    <p>Спасибо и хорошего дня!</p>
+                    <p><strong>С уважением, Vladimir Kotkov</strong></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Kotkov Tech. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/script.js"></script>
+</body>
+</html>
+
